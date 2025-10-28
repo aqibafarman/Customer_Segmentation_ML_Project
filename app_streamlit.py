@@ -57,7 +57,7 @@ def preprocess_data(file_path):
 # ---------- Streamlit UI ----------
 st.set_page_config(page_title="Customer Segmentation App", layout="wide")
 
-st.title("🧩 Customer Segmentation Prediction App")
+st.title("🧩 Customer Segmentation App")
 st.markdown("Upload your retail dataset (CSV) to analyze and visualize customer clusters.")
 
 uploaded_file = st.file_uploader("📂 Upload CSV file", type=["csv"])
